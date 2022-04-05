@@ -1,0 +1,18 @@
+2021-03-17 16:26:53.902 [main] INFO  calc - Calculator started
+2021-03-17 16:26:57.920 [main] INFO  calc - Input value : -5
+2021-03-17 16:26:57.921 [main] ERROR calc - Cannot find roots of negative number 
+2021-03-17 16:27:04.328 [main] INFO  calc - Input value : 25
+2021-03-17 16:27:04.333 [main] INFO  calc - Answer : 5.0
+2021-03-17 16:27:08.439 [main] INFO  calc - Input value : -9
+2021-03-17 16:27:08.440 [main] ERROR calc - Invalid number for factorial
+2021-03-17 16:27:13.713 [main] INFO  calc - Input value : 5
+2021-03-17 16:27:13.713 [main] INFO  calc - Answer : 120
+2021-03-17 16:27:17.555 [main] INFO  calc - Input value : 0
+2021-03-17 16:27:17.556 [main] INFO  calc - Answer : 0.0
+2021-03-17 16:27:22.577 [main] INFO  calc - Input value : -5
+2021-03-17 16:27:22.578 [main] ERROR calc - negative input value for natural log
+2021-03-17 16:27:31.008 [main] INFO  calc - Input value : -2
+2021-03-17 16:27:32.753 [main] INFO  calc - Enter power : 2
+2021-03-17 16:27:32.754 [main] INFO  calc - Answer : 4
+2021-03-17 16:27:37.420 [main] INFO  calc - Input value : 5
+2021-03-17 16:27:38.673 [main] ERROR calc - Negative powers not allowed
