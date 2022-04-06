@@ -1,7 +1,7 @@
 - name: Pull and Run docker image
   hosts: all
   tasks:
-    - name: Pull alaysd/scientific_calculator
+    - name: Pull prateek12307/scientific_calc
       docker_image:
-        name: alaysd/scientific_calculator_with_devops
+        name: prateek12307/scientific_calc
         source: pull
