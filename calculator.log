@@ -1,0 +1,19 @@
+2022-04-07 00:16:10.703 [main] INFO  calc - Calculator started
+2022-04-07 00:16:13.875 [main] INFO  calc - Input value : 4
+2022-04-07 00:16:13.877 [main] INFO  calc - Answer : 2.0
+2022-04-07 00:16:18.646 [main] INFO  calc - Input value : 8
+2022-04-07 00:16:18.647 [main] INFO  calc - Answer : 2.8284271247461903
+2022-04-07 00:16:22.602 [main] INFO  calc - Input value : 5
+2022-04-07 00:16:22.602 [main] INFO  calc - Answer : 120
+2022-04-07 00:16:27.096 [main] INFO  calc - Input value : 7
+2022-04-07 00:16:27.097 [main] INFO  calc - Answer : 5040
+2022-04-07 00:16:32.422 [main] INFO  calc - Input value : 20
+2022-04-07 00:16:32.422 [main] INFO  calc - Answer : 0.0
+2022-04-07 00:16:37.937 [main] INFO  calc - Input value : 50
+2022-04-07 00:16:37.937 [main] INFO  calc - Answer : 0.0
+2022-04-07 00:16:43.457 [main] INFO  calc - Input value : 2
+2022-04-07 00:16:46.248 [main] INFO  calc - Enter power : 3
+2022-04-07 00:16:46.248 [main] INFO  calc - Answer : 8
+2022-04-07 00:16:51.809 [main] INFO  calc - Input value : 6
+2022-04-07 00:16:55.872 [main] INFO  calc - Enter power : 2
+2022-04-07 00:16:55.873 [main] INFO  calc - Answer : 36
