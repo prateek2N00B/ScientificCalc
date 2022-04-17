@@ -1,0 +1,41 @@
+pipeline {
+    agent any
+
+    stages {
+        stage('Github Pull') {
+            steps {
+                git branch: 'main', credentialsId: 'git_credentials', url: 'https://github.com/prateek2N00B/ScientificCalc.git'
+            }
+        }
+        stage('Maven build') {
+            steps {
+                script{
+                    sh 'mvn clean install'
+                }
+            }
+        }
+        stage('Docker build') {
+            steps{
+                script {
+                    imageName=docker.build "prateek12307/scientific_calc"
+                }
+            }
+        }
+        stage('Docker push img') {
+            steps {
+                script{
+                    docker.withRegistry('','docker_cred'){
+                    imageName.push()
+                    }
+                }    
+            }
+        }
+        
+        stage('ansible pull img') {
+            steps {
+                ansiblePlaybook becomeUser: null, colorized: true, disableHostKeyChecking: true, installation: 'Ansible', inventory: 'inventoryDetails', playbook: 'deployConfigs.yml', sudoUser: null
+            }    
+        }
+        
+    }
+}
