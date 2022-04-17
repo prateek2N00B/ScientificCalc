@@ -107,7 +107,7 @@ public class calc {
                             logger.info("Answer : " + inp);
                         }
 
-
+//this is a comment
                         break;
                     case 3:
                         double answer;
